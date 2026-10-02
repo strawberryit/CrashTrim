@@ -1,0 +1,38 @@
+# macOS 파일 메타데이터
+.DS_Store
+.AppleDouble/
+._*
+
+# CLI 빌드 결과: 앱, DMG, 로그, 임시 패키징 폴더, 모듈 캐시
+/build/
+/DerivedData/
+
+# Swift Package Manager 빌드 및 로컬 작업 상태 (Core 포함)
+.build/
+.swiftpm/
+
+# Xcode 사용자별 상태 및 생성 산출물
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.xcarchive/
+*.xcresult/
+*.dSYM/
+
+# 로컬 환경 변수와 배포용 개인 키
+.env
+.env.*
+!.env.example
+!.env.sample
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+
+# 편집기 임시 파일
+*.swp
+*.swo
+*~
+
+# Xcode 프로젝트, 공유 scheme, 에셋, Design 원본, scripts는 추적합니다.
